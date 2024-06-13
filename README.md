@@ -12,7 +12,7 @@
 # the Simulated Annealing algorithm
 > Simulated annealing is an optimization algorithm that iteratively explores and refines solutions to find the optimal solution to a problem. It starts with an initial solution and gradually improves it by making random changes and accepting them based on a probability determined by the current temperature and the difference in solution quality. As the algorithm progresses, the temperature decreases, leading to a more focused search for the optimal solution. Simulated annealing strikes a balance between exploration and exploitation, making it effective for a wide range of optimization tasks.
 # Summary
-With n_vectors = 743
+> With n_vectors = 743
 \begin{array}{|c|c|c|}
 \hline
  & \text{Mean of similarity scores} & \text{Execution Time} \\
@@ -22,7 +22,8 @@ With n_vectors = 743
 \text{Simulated Annealing} & \text{0.497} & \text{57.8}\\
 \hline
 \end{array}
-With n_vectors = 1404
+> With n_vectors = 1404
+
 \begin{array}{|c|c|c|}
 \hline
  & \text{Mean of similarity scores} & \text{Execution Time} \\
@@ -32,7 +33,7 @@ With n_vectors = 1404
 \text{Simulated Annealing} & \text{0.51} & \text{61.04}\\
 \hline
 \end{array}
-With n_vectors = 2175
+> With n_vectors = 2175
 \begin{array}{|c|c|c|}
 \hline
  & \text{Mean of similarity scores} & \text{Execution Time} \\
