@@ -12,34 +12,27 @@
 # the Simulated Annealing algorithm
 > Simulated annealing is an optimization algorithm that iteratively explores and refines solutions to find the optimal solution to a problem. It starts with an initial solution and gradually improves it by making random changes and accepting them based on a probability determined by the current temperature and the difference in solution quality. As the algorithm progresses, the temperature decreases, leading to a more focused search for the optimal solution. Simulated annealing strikes a balance between exploration and exploitation, making it effective for a wide range of optimization tasks.
 # Summary
-> With n_vectors = 743
-\begin{array}{|c|c|c|}
-\hline
- & \text{Mean of similarity scores} & \text{Execution Time} \\
-\hline
-\text{Navigable Small World Graphs} & \text{0.458} & \text{11.74} \\
-\text{Hierarchical Navigable Small Worlds} & \text{0.474} & \text{0.142} \\
-\text{Simulated Annealing} & \text{0.497} & \text{57.8}\\
-\hline
-\end{array}
-> With n_vectors = 1404
+## Performance Metrics
 
-\begin{array}{|c|c|c|}
-\hline
- & \text{Mean of similarity scores} & \text{Execution Time} \\
-\hline
-\text{Navigable Small World Graphs} & \text{0.486} & \text{18.29} \\
-\text{Hierarchical Navigable Small Worlds} & \text{0.494} & \text{0.22} \\
-\text{Simulated Annealing} & \text{0.51} & \text{61.04}\\
-\hline
-\end{array}
-> With n_vectors = 2175
-\begin{array}{|c|c|c|}
-\hline
- & \text{Mean of similarity scores} & \text{Execution Time} \\
-\hline
-\text{Navigable Small World Graphs} & \text{0.497} & \text{25.39} \\
-\text{Hierarchical Navigable Small Worlds} & \text{0.499} & \text{0.408} \\
-\text{Simulated Annealing} & \text{0.5258} & \text{61,4}\\
-\hline
-\end{array}
+### With n_vectors = 743
+| Algorithm                                 | Mean of similarity scores | Execution Time (seconds) |
+|-------------------------------------------|---------------------------|--------------------------|
+| Navigable Small World Graphs              | 0.458                     | 11.74                    |
+| Hierarchical Navigable Small Worlds       | 0.474                     | 0.142                    |
+| Simulated Annealing                       | 0.497                     | 57.8                     |
+
+### With n_vectors = 1404
+| Algorithm                                 | Mean of similarity scores | Execution Time (seconds) |
+|-------------------------------------------|---------------------------|--------------------------|
+| Navigable Small World Graphs              | 0.486                     | 18.29                    |
+| Hierarchical Navigable Small Worlds       | 0.494                     | 0.22                     |
+| Simulated Annealing                       | 0.51                      | 61.04                    |
+
+### With n_vectors = 2175
+| Algorithm                                 | Mean of similarity scores | Execution Time (seconds) |
+|-------------------------------------------|---------------------------|--------------------------|
+| Navigable Small World Graphs              | 0.497                     | 25.39                    |
+| Hierarchical Navigable Small Worlds       | 0.499                     | 0.408                    |
+| Simulated Annealing                       | 0.5258                    | 61.4                     |
+
+ 
